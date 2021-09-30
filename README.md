@@ -6,7 +6,9 @@ activity is a list of possible attacks on the system/deployment. The team can
 then evaluate each of the possible attacks and provide a mitigation or
 investigation strategy.
 
-TLDR; [Sample Threat Report for KubeArmor](./models/kubearmor/README.md)
+TLDR;
+* [Sample Threat Report for KubeArmor](./models/kubearmor/README.md)
+* [Threat Modeling - Step-by-Step Guide](./howto-threatmodeling.md)
 
 ## STRIDE Approach for Threat Modeling
 While there are multiple approaches for handling Threat Modeling, the STRIDE
