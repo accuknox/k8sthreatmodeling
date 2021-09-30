@@ -13,9 +13,8 @@ Threat Modeling is handled in following steps:
 	* Download [MS-TMT app](https://aka.ms/threatmodelingtool)
 	* Download [k8s-stencils-template](./templates/k8s-STRIDE-template.tb7)
 	
-Startup    | Demo
-:---------:|:---------------------------:
-![](./resources/mstmt-screen1.png) | ![](./resources/mstmt-demo.gif)
+![](./resources/mstmt-screen1.png)
+![](./resources/mstmt-demo.gif)
 
 2. **MODEL-Preparation**: This step involves
 	* preparing a system's interaction diagram or deployment architecture
