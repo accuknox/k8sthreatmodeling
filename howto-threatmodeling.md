@@ -7,6 +7,8 @@ We have prepared a [k8s-stencils-template](./templates/k8s-STRIDE-template.tb7)
 that could be used with the tool making it easier to model applications,
 services, agents based on k8s.
 
+![](./resources/mstmt-demo.gif)
+
 Threat Modeling is handled in following steps:
 
 1. **Tool-Preparation**:
@@ -14,7 +16,6 @@ Threat Modeling is handled in following steps:
 	* Download [k8s-stencils-template](./templates/k8s-STRIDE-template.tb7)
 	
 ![](./resources/mstmt-screen1.png)
-![](./resources/mstmt-demo.gif)
 
 2. **MODEL-Preparation**: This step involves
 	* preparing a system's interaction diagram or deployment architecture
@@ -27,5 +28,16 @@ Threat Modeling is handled in following steps:
 
 <center><img src=./models/kubearmor/ka-threat-model.png></center>
 
-2. 
+3. **Report Generation**: Once the model is prepared click on "Switch to
+   Analysis View" to check all the detected threats.
+
+   To get a detailed report use, "Reports -> Create Full Report...". The report would be saved in an HTML file.
+   For sample report, [check here](https://refined-github-html-preview.kidonng.workers.dev/accuknox/k8sthreatmodeling/raw/main/models/kubearmor/KubeArmor%20Threat%20Model.htm).
+
+4. **Threat analysis**: For the reported threats provide an analysis, stating whether
+	* the threat needs investigation
+	* it is "not applicable" and provide a justification
+	* it is Mitigated because of some action taken
+
+<center><img src=./resources/mstmt-threatanalysis.png></center>
 
