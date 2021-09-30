@@ -5,7 +5,7 @@ will be using Microsoft's [MSTMT
 app](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-getting-started).
 We have prepared a [k8s-stencils-template](./templates/k8s-STRIDE-template.tb7)
 that could be used with the tool making it easier to model applications,
-services, agents based on k8s.
+services, agents based on k8s philosophy.
 
 ![](./resources/mstmt-demo.gif)
 
