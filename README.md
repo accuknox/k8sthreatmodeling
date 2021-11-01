@@ -67,3 +67,6 @@ is available in this repo.
 To use the k8s-template and the kubearmor threat model you need to [download
 Microsoft Threat Modeling
 Tool](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool).
+
+### Credits
+Credits to Microsoft for making available the [MS-TMT tool](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool) for the wider community.
